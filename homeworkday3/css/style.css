@@ -1,0 +1,56 @@
+* {
+    font-family:Arial;
+    text-align:left;
+}
+
+header { 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:blue;
+    width:100%;
+}
+
+p.title {
+	font-weight: normal;
+	color: white;
+    background-color: blue;
+    font-size:50px;
+    
+}
+
+.titlelink {
+    font-size:1.5em;
+    color:white;
+}
+
+td {
+    width:1000px
+}
+
+.processor {
+    width:100%;
+}
+
+h3 {
+    
+    font-size:30px;
+}
+
+.para3 {
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color:darkgray;
+    width:100%;
+}
+
+h4 {
+    font-size:30px;
+}
+
+h5 {
+    font-size:20px;
+}
+
+.ssd {
+    width:100%;
+}
