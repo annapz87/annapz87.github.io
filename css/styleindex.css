@@ -1,0 +1,15 @@
+* {
+    background-color:lightcoral;
+    font-family:Arial;
+}
+
+p {
+    font-size:30px;
+    font-weight:bold;
+    text-decoration:underline;
+    color:white;
+}
+
+a {
+    border: 1px solid #000000;
+}
