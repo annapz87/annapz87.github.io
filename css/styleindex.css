@@ -12,7 +12,6 @@
 
 body {
     background-color: white;
-    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6VZTR5r_-xBG69sAEYmDP96Box098gMjJUakCgUTxtrOWv-Cm);
 }
 
 img {
@@ -29,7 +28,6 @@ nav {
 
 a {
     color: lawngreen;
-    background-color: white;
     font-weight: bold;
     text-shadow: 2px 2px #000000;
 }
