@@ -1,13 +1,26 @@
 * {
     font-family: Arial;
+    margin:auto;
 }
 
-.name {
+.marquee {
+    width:auto;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 50s linear infinite;
     font-size: 50px;
     font-weight: bold;
     text-decoration: none;
     color: lawngreen;
     text-shadow: 3px 3px #000000;
+    text-align: center;
+}
+
+@keyframes marquee {
+    0%   { text-indent: 27.5em }
+    100% { text-indent: -105em }
 }
 
 body {
