@@ -28,6 +28,7 @@ body {
 }
 
 img {
+    margin-top:25px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +51,11 @@ a:hover {
     color: lightseagreen;
     text-decoration: none;
 }
-
-
-    
-   
+.comments {
+    margin-left:auto;
+    margin-right:auto;
+    width:6em;
+}
+div {
+    text-align:left;
+}
