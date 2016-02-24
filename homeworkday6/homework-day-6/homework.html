@@ -9,43 +9,43 @@
 <body>
     <header>
         <h1>Recent From Blog</h1>
-        <p>Donec tincidunt felis quam, eu tempus purus finibus in. Curabitur hendrerit, odio in viverra interdum,</p>
-        <p>lorem velit scelerisque ipsum, a sagittis ligula leo in dolor. Etiam vestibulum.</p>
+        <p class="header-p">Donec tincidunt felis quam, eu tempus purus finibus in. Curabitur hendrerit, odio in viverra interdum,
+            <br>lorem velit scelerisque ipsum, a sagittis ligula leo in dolor. Etiam vestibulum.</p>
     </header>
-    <main>
-        <section class="left-info">
-            <div class="keyboard">
-                <img class="keyboard" src="img/keyboard.JPG" />
-                <h3 class="left">Morbi eu metus ut libero laoreet vulputate</h3>
-                <p class="p1">Proin a libero eleifend, posuere ipsum id, pulvinar ipsum. Praesent sit</p>
-                <p class="p2">amet massa suscipit, ornare mi et, ultrices nisl. Vivamus venenatis</p>
-                <a href="http://www.blog.com">Read More</a>
-            </div>
+    <main class="clear-fix">
+
+        <!-- Container for big box --->
+        <section id="keyboard" class="big-box">
+            <h3 class="key-text" id="h3-size">Morbi eu metus ut libero laoreet vulputate</h3>
+            <p class="key-text" id="p-text-1">Proin a libero eleifend, posuere ipsum id, pulvinar ipsum. Praesent sit</p>
+            <p class="key-text" id="p-text-2">amet massa suscipit, ornare mi et, ultrices nisl. Vivamus venenatis</p>
+            <a class="key-text" id="a-text" href="#">Read More</a>
         </section>
-        <section class="right-info">
-            <div class="laptop">
-                <img class="laptop" src="img/laptop.jpg" />
-                <h3 class="right">Suspendisse a sagittis</h3>
-                <p>Sed ut sem elit. Pellentesque vitae erat</p>
-                <p>vehicula quam posuere porta.</p>
+
+        <!-- Container for small boxes --->
+        <aside>
+            <div id="laptop" class="small-box">
+                <h3 class="small-h3" id="lap-h3">Suspendisse a sagittis</h3>
+                <p class="small-p" id="lap-p">Sed ut sem elit. Pellentesque vitae erat
+                    <br>vehicula quam posuere porta.</p>
             </div>
-            <div class="desk">
-                <img class="desk" src="img/desk.jpg" />
-                <h3 class="right">Morbi eu metus ut libero</h3>
-                <p>Pellentesque magna dolor, dapibus</p>
-                <p>vitae lorem in, loareet sagittis lacus.</p>
+            <div id="desk" class="small-box">
+                <h3 class="small-h3" id="desk-h3">Morbi eu metus ut libero</h3>
+                <p class="small-p" id="desk-p">Pellentesque magna dolor, dapibus
+                    <br>vitae lorem in, loareet sagittis lacus.</p>
             </div>
-            <div class="window">
-                <img class="window" src="img/window.jpg" />
-                <h3 class="right">Pellentesque magna dolor</h3>
-                <p>Suspendisse a sagittis tortor, ac</p>
-                <p>dapibus turpis.</p>
+            <div id="window" class="small-box">
+                <h3 class="small-h3" id="window-h3">Pellentesque magna dolor</h3>
+                <p class="small-p" id="window-p">Suspendisse a sagittis tortor, ac
+                    <br>dapibus turpis.</p>
             </div>
-        </section>
+        </aside>
     </main>
-    <footer>
-        <section class="bottom-info">
-            <div class="why">
+
+    <!-- Container for bottom info --->
+    <footer class="clear-fix-2">
+        <section id="bottom-info">
+            <div id="left">
                 <h4>Why Profession?</h4>
                 <ul>
                     <img class="checkmark" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTKWsw3-7hnauzqj6hMWNj7dBEkezHf0LsufL1dXMfb8x_WDTUNuw" />
@@ -56,7 +56,7 @@
                     <li>Multiple Layout Options</li>
                 </ul>
             </div>
-            <div class="main">
+            <div id="middle">
                 <h4>Main Features</h4>
                 <ul>
                     <img class="checkmark" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTKWsw3-7hnauzqj6hMWNj7dBEkezHf0LsufL1dXMfb8x_WDTUNuw" />
@@ -67,12 +67,12 @@
                     <li>Well Documented Code</li>
                 </ul>
             </div>
-            <div class="transparent">
+            <div id="right">
                 <h4>Transparent Pricing</h4>
-                <p>Are you interested in our services? Don't</p>
-                <p>hesitate and contact us.</p>
+                <p class="price-p">Are you interested in our services? Don't
+                    <br>hesitate and contact us.</p>
+                <a class="price-a" href="#">Check Pricing</a>
             </div>
-            <a class="pricing" href="http://www.blog.com">Check Pricing</a>
         </section>
     </footer>
 </body>
