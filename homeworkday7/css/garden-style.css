@@ -1,0 +1,146 @@
+*
+{
+    margin:auto;
+    font-family:sans-serif;
+}
+nav{
+    left:640px;
+    position:relative;
+}
+.small-box {
+    width:230px;
+    padding:40px;
+    height:120px;
+}
+.small-box h2 {
+    color:white;
+    text-transform:uppercase;
+    top:20px;
+    position:relative;
+    font-size:25px;
+}
+.small-box p {
+    color:yellowgreen;
+    top:20px;
+    position:relative;
+    font-weight: bold;
+    font-size:12px;
+    margin-top:10px;
+}
+#grow {
+    background:url('../img/featured-image-3.jpg');
+    background-repeat:no-repeat;
+    margin-bottom:10px;
+}
+#plant {
+    background:url('../img/featured-image-4.jpg');
+    background-repeat:no-repeat;
+}
+#land {
+    background:url('../img/featured-image-5.jpg');
+    background-repeat:no-repeat;
+    width:600px;
+    padding:50px;
+    float:left;
+    height:310px;
+    margin-left:10px;
+}
+.land-text h1{
+    color:white;
+    text-transform:uppercase;
+    top:60px;
+    position:relative;
+    font-size:25px;
+}
+.land-text h3{
+    color:yellowgreen;
+    top:60px;
+    position:relative;
+    font-weight: bold;
+    font-size:12px;
+    margin-top:10px;
+}
+.land-text p{
+    top:80px;
+    position:relative;
+    color:white;
+    font-size:11px;
+    margin-bottom:5px;
+}
+.land-text a{
+    position:relative;
+    top:100px;
+}
+.more{
+    font-weight:bold;
+    text-decoration:none;
+    color:white;
+    font-size:11px;
+    text-transform:uppercase;
+    background-color:dimgrey;
+    border:1px solid dimgrey;
+    padding:8px;
+}
+.our{
+    font-weight:bold;
+    text-decoration:none;
+    color:white;
+    font-size:11px;
+    text-transform:uppercase;
+    margin-left:20px;
+    border:2px solid white;
+    padding:8px;
+}
+main {
+    width:1020px;
+}
+.main-page{
+    background:url('../img/1.jpg');
+    background-repeat:no-repeat;
+    width:1020px;
+    height:310px;
+}
+.main-page p{
+    top:80px;
+    position:relative;
+    color:white;
+    font-size:11px;
+    text-transform:uppercase;
+    left:440px;
+}
+.main-page h1{
+    top:100px;
+    position:relative;
+    color:white;
+    font-size:25px;
+    text-transform:uppercase;
+    left:350px;
+}
+.main-page h3{
+    top:110px;
+    position:relative;
+    color:white;
+    font-size:12px;
+    left:410px;
+}
+.main-page a{
+    font-weight:bold;
+    text-decoration:none;
+    color:white;
+    font-size:11px;
+    text-transform:uppercase;
+    background-color:yellowgreen;
+    border:1px solid yellowgreen;
+    padding:8px;
+    position:relative;
+    top:130px;
+    left:460px
+}
+aside{
+    float:left;
+}
+.clear-fix:after {
+    content:'';
+    display:block;
+    clear:both;
+}
