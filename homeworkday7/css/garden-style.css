@@ -93,12 +93,12 @@ nav{
 }
 main {
     width:1020px;
+    height:310px;
 }
 .main-page{
     background:url('../img/1.jpg');
     background-repeat:no-repeat;
-    width:1020px;
-    height:310px;
+    background-size:cover;
 }
 .main-page p{
     top:80px;
