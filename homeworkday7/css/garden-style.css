@@ -93,7 +93,7 @@ nav{
 }
 main {
     width:1020px;
-    height:310px;
+    height:410px;
 }
 .main-page{
     background:url('../img/1.jpg');
@@ -101,7 +101,7 @@ main {
     background-size:cover;
 }
 .main-page p{
-    top:80px;
+    top:110px;
     position:relative;
     color:white;
     font-size:11px;
@@ -109,7 +109,7 @@ main {
     left:440px;
 }
 .main-page h1{
-    top:100px;
+    top:130px;
     position:relative;
     color:white;
     font-size:25px;
@@ -117,7 +117,7 @@ main {
     left:350px;
 }
 .main-page h3{
-    top:110px;
+    top:140px;
     position:relative;
     color:white;
     font-size:12px;
@@ -133,7 +133,7 @@ main {
     border:1px solid yellowgreen;
     padding:8px;
     position:relative;
-    top:130px;
+    top:160px;
     left:460px
 }
 aside{
