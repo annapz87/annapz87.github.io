@@ -105,6 +105,7 @@ header nav a:hover {
 
 #wine-selection p {
     margin-bottom: 20px;
+    font-size:14px;
 }
 
 #wine-selection a {
@@ -120,9 +121,9 @@ header nav a:hover {
 }
 
 .shiraz {
-    width: 19%;
+    width: 25%;
     float: left;
-    padding-left: 160px;
+    padding-left: 70px;
 }
 
 .img-shiraz {
@@ -130,9 +131,9 @@ header nav a:hover {
 }
 
 .chardonnay {
-    width: 19%;
+    width: 25%;
     float: left;
-    padding-left: 180px;
+    padding-left: 110px;
 }
 
 .img-chard {
@@ -140,15 +141,12 @@ header nav a:hover {
 }
 
 .merlot {
-    width: 19%;
+    width: 25%;
     float: left;
-    padding-left: 180px;
+    padding-left: 90px;
 }
 
 .img-merlot {
     height: 360px;
 }
 
-.uva-a {
-    margin-bottom: 20px;
-}
