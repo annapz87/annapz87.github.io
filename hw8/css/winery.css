@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    margin:auto;
-    width:1300px;
+    margin: auto;
+    width: 1300px;
 }
 
 .serif {
@@ -37,7 +37,7 @@ header nav a:hover {
 }
 
 #hero {
-    width:1300px;
+    width: 1300px;
     color: white;
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/winery-images/img/wine-bg.jpg') center;
     height: 500px;
@@ -78,11 +78,11 @@ header nav a:hover {
 
 .about-right {
     float: left;
-    width:35%;
+    width: 35%;
 }
 
 #testimonial {
-    width:100%;
+    width: 100%;
     clear: both;
     color: white;
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/winery-images/img/wine13.jpg') center;
@@ -109,7 +109,7 @@ header nav a:hover {
 
 #wine-selection p {
     margin-bottom: 20px;
-    font-size:14px;
+    font-size: 14px;
 }
 
 #wine-selection a {
