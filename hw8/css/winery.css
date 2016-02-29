@@ -35,6 +35,7 @@ header nav a:hover {
 }
 
 #hero {
+    width:100%;
     color: white;
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/winery-images/img/wine-bg.jpg') center;
     height: 500px;
@@ -79,6 +80,7 @@ header nav a:hover {
 }
 
 #testimonial {
+    width:100%;
     clear: both;
     color: white;
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/winery-images/img/wine13.jpg') center;
