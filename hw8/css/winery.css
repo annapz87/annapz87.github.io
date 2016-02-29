@@ -75,7 +75,7 @@ header nav a:hover {
 
 .about-right {
     float: left;
-    width:40%;
+    width:35%;
 }
 
 #testimonial {
@@ -117,13 +117,12 @@ header nav a:hover {
     padding-right: 12px;
     position: relative;
     text-decoration: none;
-    margin-bottom: 20px;
 }
 
 .shiraz {
     width: 18%;
     float: left;
-    padding-left: 150px;
+    padding-left: 120px;
 }
 
 .img-shiraz {
@@ -133,7 +132,7 @@ header nav a:hover {
 .chardonnay {
     width: 18%;
     float: left;
-    padding-left: 140px;
+    padding-left: 110px;
 }
 
 .img-chard {
@@ -143,9 +142,13 @@ header nav a:hover {
 .merlot {
     width: 18%;
     float: left;
-    padding-left: 150px;
+    padding-left: 120px;
 }
 
 .img-merlot {
     height: 360px;
+}
+
+.uva-a {
+    margin-bottom: 20px;
 }
