@@ -127,6 +127,9 @@ header nav a:hover {
     text-decoration: none;
 }
 
+#wine-selection a:hover {
+    text-decoration:underline;
+}
 .shiraz {
     width: 25%;
     float: left;
