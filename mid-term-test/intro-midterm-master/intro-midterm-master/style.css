@@ -48,15 +48,33 @@ h1 {
     font-size:20px;
 }
 
-#3-img {
-    width:80%
+#images {
+    text-align:center;
+    height:500px;
+    padding-top:50px;
 }
 
-#flag {
-    width:25%;
-    height:30px;
+#flag-left {
     float:left;
+    width:25%;
 }
+
+.flag-img {
+    width:80%;
+    height:100px;
+}
+
+#scooter {
+    float:left;
+    width:25%;
+}
+
+#mountains {
+    float:left;
+    width:25%;
+}
+
+
 
 
 
