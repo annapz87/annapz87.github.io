@@ -16,6 +16,11 @@ header {
     padding: 15px;
 }
 
+.logo {
+    height: 50px;
+    width:100px;
+}
+
 header h1 {
     float: left;
     text-transform: uppercase;
@@ -24,6 +29,8 @@ header h1 {
 
 header nav {
     float: right;
+    position:relative;
+    top:35px;
 }
 
 header nav a {
