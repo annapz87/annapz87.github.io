@@ -1,0 +1,174 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.normal-font {
+    font-family: PT Sans Narrow;
+}
+
+.fancy-font {
+    font-family: Lobster;
+}
+
+header {
+    height: 50px;
+    padding: 15px;
+}
+
+header h1 {
+    float: left;
+    text-transform: uppercase;
+    font-size:20px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+header nav a:hover {
+    text-decoration:underline;
+    color: lightseagreen;
+}
+
+#hero {
+    background-image:url(../img/midterm-img/oak-haven-main.jpg);
+    background-position: center;
+    background-size:cover;
+    text-align:center;
+    height:500px;
+}
+
+#hero h2 {
+    color:silver;
+    font-size:70px;
+    font-family:Lobster;
+    margin-left:-450px;
+    text-shadow: 4px 2px black;
+    padding-top:300px;
+    padding-bottom:300px;
+    position:relative;
+    top:-160px;
+}
+
+#hero p {
+    background-color:tan;
+    border: 1px solid tan;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 50px;
+    padding-right:50px;
+    position:relative;
+    top:-300px;
+    font-size:30px;
+    color:black;
+    text-shadow: 2px 2px white;
+    margin-bottom:50px;
+}
+
+#hero a {
+    color: black;
+    background-color: white;
+    border: 3px solid tan;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: relative;
+    text-decoration: none;
+    top:-335px;
+}
+
+#hero a:hover {
+    color:aqua;
+    text-decoration:underline;
+}
+
+#services {
+    text-align:center;
+    height:500px;
+    padding-top:50px;
+}
+
+#deep-tissue {
+    float:left;
+    width:25%;
+}
+
+#services h3 {
+    font-size:25px;
+    margin-top:20px;
+}
+
+.service-img {
+    width:80%;
+    height:100px;
+}
+
+#services p {
+    margin-top:20px;
+}
+
+#swedish {
+    float:left;
+    width:25%;
+}
+
+#prenatal {
+    float:left;
+    width:25%;
+}
+
+#hot-stone {
+    float:left;
+    width:25%;
+}
+
+/*#our-story {
+    clear:both;
+    height:50px;
+    padding:150px 0;
+}
+    
+#story-image {
+    float: left;
+    width:50%;
+}
+
+#story-text {
+    float:left;
+    width:50%; 
+}
+
+#testimonials {
+    clear:both;
+    height:100px;
+    padding:100px 0;
+}
+
+#test-left {
+    float:left;
+    width:50%;
+    background-color:lightblue;
+}
+
+#test-right {
+    float: left;
+    width:50%;
+    background-color:lightcoral;
+}
+
+#book-massage {
+    background-color: lightgray;
+    height:50px;
+    background-position: center;
+    text-align:center;
+    padding:150px 0;
+    margin-bottom:50px;
+} */
