@@ -18,19 +18,13 @@ header {
 
 .logo {
     height: 50px;
-    width:100px;
+    width: 100px;
 }
-
-/*header h1 {
-    float: left;
-    text-transform: uppercase;
-    font-size:20px;
-}*/
 
 header nav {
     float: right;
-    position:relative;
-    top:35px;
+    position: relative;
+    top: 35px;
 }
 
 header nav a {
@@ -40,43 +34,44 @@ header nav a {
 }
 
 header nav a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
     color: aqua;
 }
+
 
 /* Main Image */
 
 #hero {
-    background-image:url('../img/midterm-img/oak-haven-main.jpg');
+    background-image: url('../img/midterm-img/oak-haven-main.jpg');
     background-position: center;
-    background-size:cover;
-    text-align:center;
-    height:500px;
+    background-size: cover;
+    text-align: center;
+    height: 500px;
 }
 
 #hero h2 {
-    color:silver;
-    font-size:70px;
-    font-family:Lobster;
-    margin-left:-450px;
+    color: silver;
+    font-size: 70px;
+    font-family: Lobster;
+    margin-left: -450px;
     text-shadow: 4px 2px black;
-    position:relative;
-    top:140px;
+    position: relative;
+    top: 140px;
 }
 
 #hero p {
-    background-color:tan;
+    background-color: tan;
     border: 1px solid tan;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 50px;
-    padding-right:50px;
-    position:relative;
-    top:300px;
-    font-size:30px;
-    color:black;
+    padding-right: 50px;
+    position: relative;
+    top: 300px;
+    font-size: 30px;
+    color: black;
     text-shadow: 2px 2px white;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 #hero a {
@@ -89,170 +84,174 @@ header nav a:hover {
     padding-right: 12px;
     position: relative;
     text-decoration: none;
-    top:265px;
+    top: 265px;
 }
 
 #hero a:hover {
-    color:aqua;
-    text-decoration:underline;
+    color: aqua;
+    text-decoration: underline;
 }
+
 
 /* Services */
 
 #services {
-    text-align:center;
-    height:350px;
-    padding-top:50px;
+    text-align: center;
+    height: 350px;
+    padding-top: 50px;
 }
 
 #deep-tissue {
-    float:left;
-    width:25%;
+    float: left;
+    width: 25%;
 }
 
 #services h3 {
-    font-size:25px;
-    margin-top:20px;
+    font-size: 25px;
+    margin-top: 20px;
 }
 
 .service-img {
-    width:80%;
-    height:100px;
+    width: 80%;
+    height: 100px;
 }
 
 #services p {
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 #swedish {
-    float:left;
-    width:25%;
+    float: left;
+    width: 25%;
 }
 
 #prenatal {
-    float:left;
-    width:25%;
+    float: left;
+    width: 25%;
 }
 
 #hot-stone {
-    float:left;
-    width:25%;
+    float: left;
+    width: 25%;
 }
+
 
 /* Our Story */
 
 #our-story {
-    clear:both;
-}
-    
-#story-image {
-    float: left;
-    width:50%;
-    position:relative;
-    top:-10px;
-}
-
-#story-text {
-    float:left;
-    width:50%;
-    text-align:center;
+    clear: both;
 }
 
 .clear-fix:after {
-    content:'';
-    display:block;
-    clear:both;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#story-image {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: -10px;
+}
+
+#story-text {
+    float: left;
+    width: 50%;
+    text-align: center;
 }
 
 #h4-story {
-    font-size:40px;
-    position:relative;
-    top:-20px;
+    font-size: 40px;
+    position: relative;
+    top: -20px;
 }
 
 .p-story {
-    font-size:13px;
-    margin-top:10px;
-    position:relative;
-    top:-20px;
+    font-size: 13px;
+    margin-top: 10px;
+    position: relative;
+    top: -20px;
     font-family: PT Sans Narrow;
-    text-align:left;
+    text-align: left;
 }
+
 
 /* Testimonials */
 
 #testimonials {
-    clear:both;
-    height:100px;
-    padding:100px 0;
+    clear: both;
+    height: 100px;
+    padding: 100px 0;
 }
 
 h5 {
-    font-size:25px;
+    font-size: 25px;
     font-family: Lobster;
-    padding-bottom:10px;
-    position:relative;
-    top:-20px;
+    padding-bottom: 10px;
+    position: relative;
+    top: -20px;
 }
 
 #test-left {
-    float:left;
-    width:50%;
+    float: left;
+    width: 50%;
 }
 
 #test-right {
     float: left;
-    width:50%;
-    position:relative;
-    top:40px;
-    left:60px;
+    width: 50%;
+    position: relative;
+    top: 40px;
+    left: 60px;
 }
 
 #h6-test1 {
-    position:relative;
-    top:20px;
+    position: relative;
+    top: 20px;
 }
 
 #p-test1 {
-    position:relative;
-    top:30px;
-    text-align:right;
-    left:-60px;
-    font-size:12px;
+    position: relative;
+    top: 30px;
+    text-align: right;
+    left: -60px;
+    font-size: 12px;
 }
 
 #h6-test2 {
-    position:relative;
-    top:20px;
+    position: relative;
+    top: 20px;
 }
 
-#p-test2{
-    position:relative;
-    top:30px;
-    text-align:right;
-    left:-60px;
-    font-size:12px;
+#p-test2 {
+    position: relative;
+    top: 30px;
+    text-align: right;
+    left: -60px;
+    font-size: 12px;
 }
+
 
 /* Book Massage */
 
 #book-massage {
-    clear:both;
-    position:relative;
-    top:30px;
+    clear: both;
+    position: relative;
+    top: 30px;
     background-color: white;
-    height:5px;
+    height: 5px;
     background-position: center;
-    text-align:center;
-    padding:150px 0;
-    margin-bottom:50px;
+    text-align: center;
+    padding: 150px 0;
+    margin-bottom: 50px;
 }
 
 #book-massage p {
-    font-size:60px;
-    position:relative;
-    top:-70px;
-    color:black;
+    font-size: 60px;
+    position: relative;
+    top: -70px;
+    color: black;
 }
 
 #book-massage a {
@@ -264,7 +263,7 @@ h5 {
     padding-left: 12px;
     padding-right: 12px;
     position: relative;
-    top:-10px;
+    top: -10px;
     text-decoration: none;
 }
 
@@ -274,11 +273,11 @@ h5 {
 }
 
 #request {
-    position:relative;
-    left:-50px;
+    position: relative;
+    left: -50px;
 }
 
 #purchase {
-    position:relative;
-    left:50px;
+    position: relative;
+    left: 50px;
 }
