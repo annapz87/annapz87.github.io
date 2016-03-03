@@ -4,11 +4,11 @@
 }
 
 .normal-font {
-    font-family: PT Sans Narrow;
+    font-family: 'PT Sans Narrow';
 }
 
 .fancy-font {
-    font-family: Lobster;
+    font-family: 'Lobster';
 }
 
 header {
@@ -21,11 +21,11 @@ header {
     width:100px;
 }
 
-header h1 {
+/*header h1 {
     float: left;
     text-transform: uppercase;
     font-size:20px;
-}
+}*/
 
 header nav {
     float: right;
@@ -41,11 +41,13 @@ header nav a {
 
 header nav a:hover {
     text-decoration:underline;
-    color: lightseagreen;
+    color: aqua;
 }
 
+/* Main Image */
+
 #hero {
-    background-image:url(../img/midterm-img/oak-haven-main.jpg);
+    background-image:url('../img/midterm-img/oak-haven-main.jpg');
     background-position: center;
     background-size:cover;
     text-align:center;
@@ -58,10 +60,8 @@ header nav a:hover {
     font-family:Lobster;
     margin-left:-450px;
     text-shadow: 4px 2px black;
-    padding-top:300px;
-    padding-bottom:300px;
     position:relative;
-    top:-160px;
+    top:140px;
 }
 
 #hero p {
@@ -72,7 +72,7 @@ header nav a:hover {
     padding-left: 50px;
     padding-right:50px;
     position:relative;
-    top:-300px;
+    top:300px;
     font-size:30px;
     color:black;
     text-shadow: 2px 2px white;
@@ -89,7 +89,7 @@ header nav a:hover {
     padding-right: 12px;
     position: relative;
     text-decoration: none;
-    top:-335px;
+    top:265px;
 }
 
 #hero a:hover {
@@ -97,9 +97,11 @@ header nav a:hover {
     text-decoration:underline;
 }
 
+/* Services */
+
 #services {
     text-align:center;
-    height:500px;
+    height:350px;
     padding-top:50px;
 }
 
@@ -137,21 +139,41 @@ header nav a:hover {
     width:25%;
 }
 
-/*#our-story {
+/* Our Story */
+
+#our-story {
     clear:both;
-    height:50px;
-    padding:150px 0;
 }
     
 #story-image {
     float: left;
     width:50%;
+    position:relative;
+    top:-10px;
 }
 
 #story-text {
     float:left;
-    width:50%; 
+    width:50%;
+    text-align:center;
 }
+
+#h4-story {
+    font-size:40px;
+    position:relative;
+    top:-20px;
+}
+
+.p-story {
+    font-size:13px;
+    margin-top:10px;
+    position:relative;
+    top:-20px;
+    font-family: PT Sans Narrow;
+    text-align:left;
+}
+
+/* Testimonials */
 
 #testimonials {
     clear:both;
@@ -159,23 +181,98 @@ header nav a:hover {
     padding:100px 0;
 }
 
+h5 {
+    font-size:25px;
+    font-family: Lobster;
+    padding-bottom:10px;
+    position:relative;
+    top:-20px;
+}
+
 #test-left {
     float:left;
     width:50%;
-    background-color:lightblue;
 }
 
 #test-right {
     float: left;
     width:50%;
-    background-color:lightcoral;
+    position:relative;
+    top:40px;
+    left:60px;
 }
 
+#h6-test1 {
+    position:relative;
+    top:20px;
+}
+
+#p-test1 {
+    position:relative;
+    top:30px;
+    text-align:right;
+    left:-60px;
+    font-size:12px;
+}
+
+#h6-test2 {
+    position:relative;
+    top:20px;
+}
+
+#p-test2{
+    position:relative;
+    top:30px;
+    text-align:right;
+    left:-60px;
+    font-size:12px;
+}
+
+/* Book Massage */
+
 #book-massage {
-    background-color: lightgray;
-    height:50px;
+    clear:both;
+    position:relative;
+    top:30px;
+    background-color: white;
+    height:5px;
     background-position: center;
     text-align:center;
     padding:150px 0;
     margin-bottom:50px;
-} */
+}
+
+#book-massage p {
+    font-size:60px;
+    position:relative;
+    top:-70px;
+    color:black;
+}
+
+#book-massage a {
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: relative;
+    top:-10px;
+    text-decoration: none;
+}
+
+#book-massage a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+#request {
+    position:relative;
+    left:-50px;
+}
+
+#purchase {
+    position:relative;
+    left:50px;
+}
