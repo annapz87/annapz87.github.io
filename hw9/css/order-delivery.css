@@ -107,4 +107,48 @@ main {
     }
 }
 
+
 /*Phone*/
+
+@media (max-width: 767px) {
+    #hero {
+        height: 350px;
+        padding-top: 150px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #hero h1 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 55px;
+        margin-top: 50px;
+    }
+    #hero p {
+        margin-left: 5%;
+        font-size: 18px;
+    }
+    #search {
+        margin-left: 30%;
+        position: relative;
+    }
+    #search #locate {
+        float: none;
+        width: 55%;
+        margin-bottom: 20px;
+    }
+    #search #home {
+        float: none;
+        width: 55%;
+        margin-bottom: 20px;
+    }
+    #search #secure {
+        float: none;
+        width: 55%;
+        margin-bottom: 20px;
+    }
+    #search #delivery {
+        float: none;
+        width: 55%;
+        margin-bottom: 20px;
+    }
+}
