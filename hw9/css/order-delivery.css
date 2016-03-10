@@ -9,7 +9,7 @@ main {
     background: url('../hw-img/sub_header_home.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    height: 300px;
+    height: 260px;
     color: white;
     padding-top: 150px;
     padding-bottom: 10px;
@@ -72,97 +72,39 @@ main {
 }
 
 
-/* Tablet */
+/*Tablet*/
 
 @media (min-width: 768px) and (max-width: 991px) {
-    
-    /*My CSS*/
-
     #hero {
-    background: url('../hw-img/sub_header_home.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
-    color: white;
-    padding-top: 150px;
-    padding-bottom: 10px;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 10px;
-}
-
-#hero h1 {
-    font-size: 60px;
-    margin-left: 70px;
-    margin-bottom: 25px;
-}
-
-#hero p {
-    font-size: 22px;
-    margin-left: 200px;
-    font-family: sans-serif;
-}
-}
-
-
-/* Phone */
-
-@media (max-width: 767px) {
-    
-    /*My CSS*/
-    
-    #hero {
-        background: url('../hw-img/sub_header_home.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 500px;
-        color: white;
-        padding-top: 50px;
+        height: 350px;
+        padding-top: 150px;
         padding-bottom: 10px;
-        margin-top: 10px;
+        padding-left: 0%;
+        padding-right: 0%;
     }
     #hero h1 {
-        font-size: 65px;
-        margin-left: 5px;
-        margin-bottom: 25px;
-        margin-top: 120px;
-        text-align: center;
+        margin-left: 2%;
+        font-size: 58px;
+        margin-top: 50px;
     }
     #hero p {
-        font-size: 22px;
-        margin-left: -38px;
-        font-family: sans-serif;
-    }
-    #search {
-        clear: both;
-        margin-left: 30%;
-        position: relative;
-    }
-    #search h2 {
-        font-size: 20px;
+        margin-left: 15%;
     }
     #search #locate {
-        float: none;
-        width: 55%;
-        text-align: center;
-        margin-bottom: 20px;
+        width: 50%;
     }
     #search #home {
-        float: none;
-        width: 55%;
-        text-align: center;
-        margin-bottom: 20px;
+        width: 50%;
     }
     #search #secure {
-        float: none;
-        width: 55%;
-        text-align: center;
-        margin-bottom: 20px;
+        clear: left;
+        width: 50%;
+        margin-top: 30px;
     }
     #search #delivery {
-        float: none;
-        width: 55%;
-        text-align: center;
-        margin-bottom: 20px;
+        width: 50%;
+        margin-top: 30px;
     }
 }
+
+/*Phone*/
