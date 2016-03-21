@@ -1,5 +1,5 @@
 .container {
-    width: 80.5%;
+    width: 90%;
     margin: 0 auto;
     font-family:sans-serif;
 }
@@ -20,19 +20,17 @@ h1 {
 
 #pizza-img {
     margin-top:-25px;
+    width:100%;
 }
 
 #about-us {
     text-align:center;
     background-color:white;
-    border: white;
+    border: 1px solid white;
     padding-top:50px;
     padding-bottom:50px;
     padding-left: 50px;
     padding-right:50px;
-    position:relative;
-    width:80.5%;
-    margin: 0 auto;
 }
 
 #about-us h2{
@@ -42,40 +40,45 @@ h1 {
 }
 
 #about-us p {
-    width:50%;
-    position:relative;
-    left:260px;
     font-size:20px;
+    text-align:left;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 #images {
-    text-align:center;
-    height:500px;
-    padding-top:50px;
+    height:350px;
 }
 
-#flag-left {
+.flag-left {
     float:left;
+    min-width:200px;
+    max-width:800px;
     width:25%;
 }
 
 .flag-img {
-    width:80%;
-    height:100px;
+    height:200px;
 }
 
-#scooter {
+.scooter {
     float:left;
+    min-width:200px;
+    max-width:800px;
     width:25%;
 }
 
-#mountains {
+.scooter-img {
+    height:200px;
+}
+
+.mountains {
     float:left;
+    min-width:200px;
+    max-width:800px;
     width:25%;
 }
 
-
-
-
-
-
+.mountains-img {
+    height:200px;
+}
