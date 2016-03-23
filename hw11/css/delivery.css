@@ -1,0 +1,60 @@
+main {
+    width: 90%;
+    margin: auto;
+}
+
+#hero {
+    background: url('../img/sub_header_home.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 420px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10px;
+}
+
+#hero h1 {
+    font-size: 55px;
+    margin-left: 70px;
+    margin-bottom: 25px;
+    text-align:center;
+}
+
+#hero p {
+    font-size: 20px;
+    margin-left: 200px;
+    font-family: sans-serif;
+    text-align:center;
+}
+
+#search {
+    height: 200px;
+    padding-top: 40px;
+}
+
+#search #locate {
+    text-align: center;
+}
+
+#search #home {
+    text-align: center;
+}
+
+#search #secure {
+    text-align: center;
+}
+
+#search #delivery {
+    text-align: center;
+}
+
+#search h2 {
+    font-size: 16px;
+}
+
+#search p {
+    font-size: 14px;
+}
