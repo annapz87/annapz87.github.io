@@ -49,11 +49,17 @@ h3 {
 }
 
 
-/*#gray {
+#gray-1 {
     background-color:#484956;
     margin-top:30px;
     height:350px;
-}*/
+}
+
+#gray-2 {
+    background-color:#484956;
+    margin-top:30px;
+    height:350px;
+}
 
 h4 {
     font-weight: bold;
