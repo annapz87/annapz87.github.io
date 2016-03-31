@@ -1,0 +1,87 @@
+main {
+    margin:auto;
+}
+
+.serif {
+    font-family: 'Lora:italic';
+    font-style: italic;
+    font-weight: bold;
+}
+
+#hero {
+    background-image: url('../img/wine14.jpg');
+    background-position: center;
+    color:white;
+    height:700px;
+}
+
+.img-responsive {
+    position: relative;
+    z-index: 3;
+}
+
+.quote {
+    font-family: 'Lora:italic';
+    font-style: italic;
+    text-align: center;
+    font-size:26px;
+    padding-top: 20px;
+    
+}
+
+.quote-2 {
+    font-family: 'Lora:italic';
+    font-style: italic;
+    text-align: center;
+    
+}
+
+#about {
+    height: 500px;
+}
+
+#about-left {
+    text-align: center;
+    padding-top: 250px;
+}
+
+#about-left h3 {
+    margin-bottom: 60px;
+    font-size: 15px;
+    color: lightslategray;
+}
+
+#about-left h4 {
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+#testimonial {
+    background-image: url('../img/wine14.jpg');
+    background-position: center;
+    color:white;
+    height:700px;
+    margin-top:370px;
+    clear:both;
+}
+
+#testimonial h5 {
+    text-align: center;
+    padding-top: 250px;
+    font-size: 30px;
+}
+
+#testimonial p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+}
+
+#wine-selection{
+    text-align: center;
+    font-style: italic;
+}
+
+#wine-selection h6 {
+    font-size:40px;
+}
