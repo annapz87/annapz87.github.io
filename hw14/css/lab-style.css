@@ -96,6 +96,13 @@ h3 {
 }
 
 @media (max-width: 767px) {
+    .inside-yellow {
+        margin-top:15px;
+    }
+    .inside-gray {
+        margin-top:15px;
+    }
+    
     .top-book {
         margin-top: 20px;
     }
