@@ -84,6 +84,12 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .inside-yellow {
+        margin-top:45px;
+    }
+    .inside-gray {
+        margin-top:45px;
+    }
     .gray-bg {
         margin-top: 20px;
     }
