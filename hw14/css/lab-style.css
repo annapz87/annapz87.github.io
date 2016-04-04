@@ -99,6 +99,9 @@ h3 {
     .yellow-bottom {
         margin-bottom: 20px;
     }
+    .sm-width {
+        width:100%;
+    }
 }
 
 @media (max-width: 767px) {
