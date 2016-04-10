@@ -1,0 +1,162 @@
+body {
+    background: #fff;
+    margin: auto;
+    font-family: serif;
+}
+
+nav.transparent {
+    background: none;
+}
+
+.navbar-brand {
+    font-family: 'Pinyon Script';
+    font-size: 35px;
+}
+
+.navbar-nav {
+    font-size: 16px;
+}
+
+.navbar-default {
+    border: none;
+}
+
+.background-img {
+    background-image: url('../img/woman-hand-smartphone-desk.jpg');
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+.selfie {
+    margin-top: 60px;
+}
+
+h2 {
+    font-family: 'Pinyon Script';
+    margin-top: 160px;
+    text-align: center;
+    font-size: 60px;
+    color: #5e5e5e;
+}
+
+.about-para {
+    text-align: center;
+    margin-top: 70px;
+    color: #5e5e5e;
+    font-size: 16px;
+}
+
+.skills {
+    margin-top: 80px;
+}
+
+h3 {
+    font-family: 'Pinyon Script';
+    text-align: center;
+    font-size: 60px;
+    color: #5e5e5e;
+    margin-top: 60px;
+}
+
+h4 {
+    text-align: center;
+    color: #5e5e5e;
+    margin-top: 30px;
+}
+
+.progress {
+    margin-top: 30px;
+}
+
+.skill-para {
+    text-align: center;
+    color: #5e5e5e;
+    margin-top: 30px;
+}
+
+h5 {
+    font-family: 'Pinyon Script';
+    text-align: center;
+    font-size: 60px;
+    color: #5e5e5e;
+    margin-top: 60px;
+}
+
+.work {
+    margin-top: 40px;
+}
+
+hr {
+    margin-top: 40px;
+}
+
+h6 {
+    font-family: 'Pinyon Script';
+    text-align: center;
+    font-size: 60px;
+    color: #5e5e5e;
+    margin-top: 60px;
+}
+
+h7 {
+    font-size: 24px;
+    text-align: center;
+    color:#5e5e5e;
+}
+
+.contact {
+    margin-top:60px;
+}
+
+.links {
+    color:#5e5e5e;
+    text-decoration: none;
+    
+}
+
+.phone {
+    color:#5e5e5e;
+    margin-top:20px;
+}
+
+.address {
+    color:#5e5e5e;
+    margin-bottom:80px;
+}
+
+.fb {
+    margin-top: 20px;
+}
+
+.twitter {
+    margin-top:10px;
+}
+
+.insta {
+    margin-top:10px;
+}
+
+.social {
+    text-align:center;
+}
+
+.personal {
+    border-left: 2px solid;
+    color:#5e5e5e;
+    height:200px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+
+
+
+
