@@ -1,137 +1,127 @@
 body {
-    font-family:sans-serif;
-    width:90%;
-    margin:auto;
+    background: url(../img/coffee-smartphone-desk-pen.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.marquee {
-    background-color:coral;
-    width:auto;
-    margin: 0 auto;
-    overflow: hidden;
-    white-space: nowrap;
-    box-sizing: border-box;
-    animation: marquee 50s linear infinite;
-    font-size: 50px;
-    font-weight: bold;
-    text-decoration: none;
-    color:white;
-    text-shadow: 3px 3px #000000;
+.selfie {
+    margin-left: 15.5%;
+    margin-top:-10px;
+    position: fixed;
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+}
+
+.fa {
+    color: red;
+    font-size: 25px;
+}
+
+.fa1 {
+    margin-right: 10px;
+}
+
+.fa2 {
+    margin-left: 10px;
+}
+
+h1 {
     text-align: center;
-    font-family: 'PT Sans Narrow';
+    color: #5e5e5e;
+    margin-left: -40%;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
 }
 
-@keyframes marquee {
-    0%   { text-indent: 27.5em }
-    100% { text-indent: -105em }
-}
-
-body {
-    background-color: white;
-}
-
-#main-pic {
-    margin-top:20px;
-    display: block;
-    float:left;
-}
-
-#minions {
-    clear:left;
-    margin-top:20px;
-}
-
-#hw-links {
-    float:right;
-    clear:left;
-    width:50%;
-    top:-1025px;
-    position:relative;
-}
-
-nav {
+.hw {
+    text-decoration: none;
+    color: #5e5e5e;
     text-align: center;
-    padding-top: 20px;
-    font-size: 20px;
-    font-family:sans-serif;
+    margin-left: 15%;
+    font-size: 34px;
+    font-family: 'Pinyon Script';
+    margin-top: 40px;
 }
 
-ul {
-    list-style-type: none;
+.shia-gif {
+    -ms-transform: rotate(2deg);
+    /* IE 9 */
+    -webkit-transform: rotate(2deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(2deg);
+    margin-left: -5.5%;
+    width: 230px;
+    margin-top: 287px;
+    height: 140px;
+    position: fixed;
 }
 
-li {
-    margin-bottom:15px;
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    
+    .selfie{
+        width:160px;
+        height:140px;
+        margin-top: 78px;
+        margin-left: 110px;
+        position: fixed;
+    }
+    
+    .shia-gif {
+    margin-left: 14.2%;
+    width: 150px;
+    margin-top: 280px;
+    height: 90px;
+    position: fixed;
+}
+    .list {
+        margin-top:75px;
+    }
+    h1 {
+        margin-left:36%;
+    }
+    
+    .hw {
+        margin-left:58%;
+        font-size:20px;
+    }
 }
 
-a {
-    font-family:'Lobster';
-    color: white;
-    font-weight: bold;
-    text-shadow: 2px 2px #000000;
-    font-size:40px;
-    text-decoration: none;
+/* Phone */
+
+	@media (max-width: 767px) {
+        .selfie{
+        width:170px;
+        height:170px;
+        margin-top: 95px;
+        margin-left: -90px;
+        position:absolute;
+    }
+     .shia-gif {
+    margin-left: -10%;
+    width: 130px;
+    margin-top: 343px;
+    height: 110px;
+    position: fixed;
+}
+    .list {
+        margin-top:95px;
+    }
+    h1 {
+        margin-left:45%;
+        font-size:30px;
+    }
+    
+    .hw {
+        margin-left:60%;
+        font-size:20px;
+    }
 }
 
-a:hover {
-    font-size: 44px;
-    color: darkblue;
-    text-decoration: none;
-}
-
-#hw1 {
-    background-color:salmon;
-}
-#hw2 {
-    background-color: cadetblue;  
-}
-#hw3 {
-    background-color:orchid;
-}
-#hw4 {
-    background-color:lightgreen;
-}
-#hw5 {
-    background-color:lightslategray;
-}
-#hw6 {
-    background-color:crimson;
-}
-#hw7 {
-    background-color:orange;
-}
-#hw8 {
-    background-color:olivedrab;
-}
-#hw9 {
-    background-color:lightsalmon;
-}
-#hw10 {
-    background-color: #f0f47c;
-}
-
-#hw11 {
-    background-color:salmon;
-}
-
-#hw12 {
-    background-color: cadetblue;
-}
-
-#hw13 {
-    background-color: orchid;
-}
-
-#hw14 {
-    background-color:lightgreen;
-}
-
-#final-project {
-    background-color: lightslategray;
-}
-#mtp {
-    background-color:lightseagreen;
-}
-#mtt {
-    background-color:darkred;
-}
