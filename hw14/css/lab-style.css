@@ -106,10 +106,10 @@ h3 {
 
 @media (max-width: 767px) {
     .inside-yellow {
-        margin-top:15px;
+        margin-top:-20px;
     }
     .inside-gray {
-        margin-top:15px;
+        margin-top:-20px;
     }
     
     .top-book {
