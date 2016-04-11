@@ -156,6 +156,53 @@ h7 {
     margin-right: 10px;
 }
 
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .selfie {
+        margin-left:25%;
+        margin-right:25%;
+    }
+    h2 {
+        margin-top: 60px;
+    }
+
+    .about-para {
+        margin-top: 40px;
+    }
+    .skills {
+        margin-top: 50px;
+    }
+    .work {
+        margin-left:25%;
+        margin-right:25%;
+    }
+}
+
+/* Phone */
+
+	@media (max-width: 767px) {
+        .selfie {
+            padding-left:10%;
+        }
+        
+        h2 {
+            margin-top: 40px;
+        }
+        .skills-img {
+            margin-left:30%;
+        }
+        
+        .work-img {
+            margin-left:8%;
+        }
+        
+        .personal {
+            margin-top: 30px;
+        }
+
+}
+
 
 
 
