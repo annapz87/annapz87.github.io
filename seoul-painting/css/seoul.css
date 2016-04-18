@@ -1,0 +1,35 @@
+    nav.transparent {
+    background: #D1A954;
+    opacity: 0.6;
+}
+
+.navbar-nav {
+    font-size: 22px;
+}
+
+.navbar-default {
+    border: none;
+}
+
+.navbar {
+    min-height: 120px;
+}
+
+.navbar-right {
+    margin-top: 34px;
+}
+
+#links a {
+    color: #5E4E2E;
+}
+
+.hero {
+    width: 100%;
+    background-image: url(../img/brush-painting-paint-brushes-8133.jpg);
+    height: 650px;
+    margin: 0 auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    display: block;
